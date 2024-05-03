@@ -1,0 +1,10 @@
+- route:
+    id: route-e426
+    nodePrefixId: route-022
+    from:
+      id: from-c480
+      uri: kamelet:teste-timer-custom-source.kamelet.yaml
+      steps:
+        - log:
+            id: log-e19b
+            message: ${body}
