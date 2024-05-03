@@ -4,8 +4,8 @@ import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 
 @Configuration
-@BindToRegistry("HelloWord")
-public class HelloWord implements Processor {
+@BindToRegistry("HelloWorld")
+public class HelloWorld implements Processor {
 
     public void process(Exchange exchange) throws Exception {
         exchange.getIn().setBody("Hello World");
